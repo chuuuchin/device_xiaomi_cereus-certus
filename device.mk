@@ -6,8 +6,10 @@
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio.service \
     android.hardware.audio.common-util.vendor \
     android.hardware.audio.common@5.0-util.vendor \
+    android.hardware.audio@5.0-impl \
     android.hardware.audio.effect@5.0-impl
 
 PRODUCT_PACKAGES += \
