@@ -40,6 +40,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service-lazy
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.2-service.clearkey \
+    android.hardware.drm@1.2.vendor
+
+PRODUCT_PACKAGES += \
+    libdrmclearkeyplugin \
+    libmockdrmcryptoplugin
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
